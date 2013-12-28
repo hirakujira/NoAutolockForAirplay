@@ -1,0 +1,9 @@
+Package: com.yourcompany.noautolockforairplay
+Name: NoAutoLockForAirPlay
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Hiraku
+Author: Hiraku
+Section: Tweaks
