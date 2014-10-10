@@ -32,7 +32,6 @@ static BOOL enabled;
 }
 %end
 
-
 %hook SBNowPlayingBar
 -(BOOL)_isAirPlayOn
 {
@@ -40,6 +39,7 @@ static BOOL enabled;
 	return enabled;
 }
 %end
+
 __attribute__((constructor)) static void init()
 {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
